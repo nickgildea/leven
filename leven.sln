@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "leven", "leven\leven.vcxproj", "{CFB7C1A4-D7AD-4B2B-B02B-505F9CAEE9F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		MinSizeRel|Win32 = MinSizeRel|Win32
+		MinSizeRel|x64 = MinSizeRel|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		RelWithDebInfo|Win32 = RelWithDebInfo|Win32
+		RelWithDebInfo|x64 = RelWithDebInfo|x64
+		Testing|Win32 = Testing|Win32
+		Testing|x64 = Testing|x64
+		UnitTest - Release|Win32 = UnitTest - Release|Win32
+		UnitTest - Release|x64 = UnitTest - Release|x64
+		UnitTest - Testing|Win32 = UnitTest - Testing|Win32
+		UnitTest - Testing|x64 = UnitTest - Testing|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFB7C1A4-D7AD-4B2B-B02B-505F9CAEE9F8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CFB7C1A4-D7AD-4B2B-B02B-505F9CAEE9F8}.Debug|Win32.Build.0 = Debug|Win32
+		{CFB7C1A4-D7AD-4B2B-B02B-505F9CAEE9F8}.Debug|x64.ActiveCfg = Debug|x64
+		{CFB7C1A4-D7AD-4B2B-B02B-505F9CAEE9F8}.Debug|x64.Build.0 = Debug|x64
+		{CFB7C1A4-D7AD-4B2B-B02B-505F9CAEE9F8}.MinSizeRel|Win32.ActiveCfg = UnitTest - Testing|Win32
+		{CFB7C1A4-D7AD-4B2B-B02B-505F9CAEE9F8}.MinSizeRel|Win32.Build.0 = UnitTest - Testing|Win32
+		{CFB7C1A4-D7AD-4B2B-B02B-505F9CAEE9F8}.MinSizeRel|x64.ActiveCfg = UnitTest - Testing|x64
+		{CFB7C1A4-D7AD-4B2B-B02B-505F9CAEE9F8}.MinSizeRel|x64.Build.0 = UnitTest - Testing|x64
+		{CFB7C1A4-D7AD-4B2B-B02B-505F9CAEE9F8}.Release|Win32.ActiveCfg = Release|Win32
+		{CFB7C1A4-D7AD-4B2B-B02B-505F9CAEE9F8}.Release|Win32.Build.0 = Release|Win32
+		{CFB7C1A4-D7AD-4B2B-B02B-505F9CAEE9F8}.Release|x64.ActiveCfg = Release|x64
+		{CFB7C1A4-D7AD-4B2B-B02B-505F9CAEE9F8}.Release|x64.Build.0 = Release|x64
+		{CFB7C1A4-D7AD-4B2B-B02B-505F9CAEE9F8}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
+		{CFB7C1A4-D7AD-4B2B-B02B-505F9CAEE9F8}.RelWithDebInfo|Win32.Build.0 = Release|Win32
+		{CFB7C1A4-D7AD-4B2B-B02B-505F9CAEE9F8}.RelWithDebInfo|x64.ActiveCfg = Release|x64
+		{CFB7C1A4-D7AD-4B2B-B02B-505F9CAEE9F8}.RelWithDebInfo|x64.Build.0 = Release|x64
+		{CFB7C1A4-D7AD-4B2B-B02B-505F9CAEE9F8}.Testing|Win32.ActiveCfg = Testing|Win32
+		{CFB7C1A4-D7AD-4B2B-B02B-505F9CAEE9F8}.Testing|Win32.Build.0 = Testing|Win32
+		{CFB7C1A4-D7AD-4B2B-B02B-505F9CAEE9F8}.Testing|x64.ActiveCfg = Testing|x64
+		{CFB7C1A4-D7AD-4B2B-B02B-505F9CAEE9F8}.Testing|x64.Build.0 = Testing|x64
+		{CFB7C1A4-D7AD-4B2B-B02B-505F9CAEE9F8}.UnitTest - Release|Win32.ActiveCfg = UnitTest - Release|Win32
+		{CFB7C1A4-D7AD-4B2B-B02B-505F9CAEE9F8}.UnitTest - Release|Win32.Build.0 = UnitTest - Release|Win32
+		{CFB7C1A4-D7AD-4B2B-B02B-505F9CAEE9F8}.UnitTest - Release|x64.ActiveCfg = UnitTest - Release|x64
+		{CFB7C1A4-D7AD-4B2B-B02B-505F9CAEE9F8}.UnitTest - Release|x64.Build.0 = UnitTest - Release|x64
+		{CFB7C1A4-D7AD-4B2B-B02B-505F9CAEE9F8}.UnitTest - Testing|Win32.ActiveCfg = UnitTest - Testing|Win32
+		{CFB7C1A4-D7AD-4B2B-B02B-505F9CAEE9F8}.UnitTest - Testing|Win32.Build.0 = UnitTest - Testing|Win32
+		{CFB7C1A4-D7AD-4B2B-B02B-505F9CAEE9F8}.UnitTest - Testing|x64.ActiveCfg = UnitTest - Testing|x64
+		{CFB7C1A4-D7AD-4B2B-B02B-505F9CAEE9F8}.UnitTest - Testing|x64.Build.0 = UnitTest - Testing|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

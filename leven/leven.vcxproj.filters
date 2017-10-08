@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="System">
+      <UniqueIdentifier>{a26574f9-9f64-472f-a524-c1c1ab7fc892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{c088df94-bc16-4b82-8467-b613e135a7de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Voxel">
+      <UniqueIdentifier>{06201de1-85f2-41f9-87c6-eb1df83ace81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viewer">
+      <UniqueIdentifier>{df5c8c9b-6a4b-4289-b0f9-8054fe77d054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{42a2ef9c-55f3-4eb6-a88e-615f74a83263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Shaders">
+      <UniqueIdentifier>{f9200b1c-a4f1-4392-8dc7-77270102f9c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\OpenCL">
+      <UniqueIdentifier>{f8b77d53-dd27-4784-b7a3-7f29536a8725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{879d6f96-173a-4a71-93d5-0ae835f958de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Remotery">
+      <UniqueIdentifier>{f05710cf-6a6a-48fa-a17d-05aeff46ba9e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\file_utils.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stb_image.c">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\threadpool.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render_program.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\camera.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\compute.cpp">
+      <Filter>Voxel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\octree.cpp">
+      <Filter>Voxel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\volume.cpp">
+      <Filter>Voxel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\config.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\log.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\resource.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\primes.cpp">
+      <Filter>Voxel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\viewer.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test_main.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test_cuckoo.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test_compute.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="src\compute_cuckoo.cpp">
+      <Filter>Voxel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\compute_octree.cpp">
+      <Filter>Voxel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\compute_density_field.cpp">
+      <Filter>Voxel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui\imgui.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui_handlers.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\compute_program.cpp">
+      <Filter>Voxel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui\imgui_draw.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render_debug.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pool_allocator.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test_allocator.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Remotery\lib\Remotery.c">
+      <Filter>Remotery</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\frustum.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clipmap.cpp">
+      <Filter>Voxel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render_actor.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render_shapes.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render_mesh.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\actors.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\random.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\compute_csg.cpp">
+      <Filter>Voxel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qef_simd.cpp">
+      <Filter>Voxel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ng_mesh_simplify.cpp">
+      <Filter>Voxel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\timer.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\threadpool.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\slab_allocator.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pool_allocator.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lrucache.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\file_utils.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render_program.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\camera.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\octree.h">
+      <Filter>Voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\volume.h">
+      <Filter>Voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\volume_constants.h">
+      <Filter>Voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\volume_materials.h">
+      <Filter>Voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\contour_constants.h">
+      <Filter>Voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\compute.h">
+      <Filter>Voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\aabb.h">
+      <Filter>Voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\config.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\force_include.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\log.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\resource.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\primes.h">
+      <Filter>Voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\compute_local.h">
+      <Filter>Voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render_types.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\viewer.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cuckoo.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\compute_cuckoo.h">
+      <Filter>Voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui_handlers.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\materials.h">
+      <Filter>Voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\compute_program.h">
+      <Filter>Voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdl_wrapper.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render_debug.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render_local.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Remotery\lib\Remotery.h">
+      <Filter>Remotery</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\frustum.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\clipmap.h">
+      <Filter>Voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\double_buffer.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render_actor.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render_shapes.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render_mesh.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\actors.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\random.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glm_hash.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\options.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qef_simd.h">
+      <Filter>Voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ng_mesh_simplify.h">
+      <Filter>Voxel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="default.cfg" />
+    <None Include="shaders\pass1.frag">
+      <Filter>Scripts\Shaders</Filter>
+    </None>
+    <None Include="shaders\pass1.vert">
+      <Filter>Scripts\Shaders</Filter>
+    </None>
+    <None Include="shaders\pass2.frag">
+      <Filter>Scripts\Shaders</Filter>
+    </None>
+    <None Include="shaders\pass2.vert">
+      <Filter>Scripts\Shaders</Filter>
+    </None>
+    <None Include="shaders\shadowmap.frag">
+      <Filter>Scripts\Shaders</Filter>
+    </None>
+    <None Include="shaders\shadowmap.vert">
+      <Filter>Scripts\Shaders</Filter>
+    </None>
+    <None Include="shaders\ui.frag">
+      <Filter>Scripts\Shaders</Filter>
+    </None>
+    <None Include="shaders\ui.vert">
+      <Filter>Scripts\Shaders</Filter>
+    </None>
+    <None Include="shaders\wireframe.frag">
+      <Filter>Scripts\Shaders</Filter>
+    </None>
+    <None Include="shaders\wireframe.vert">
+      <Filter>Scripts\Shaders</Filter>
+    </None>
+    <None Include="cl\apply_csg_operation.cl">
+      <Filter>Scripts\OpenCL</Filter>
+    </None>
+    <None Include="cl\compact.cl">
+      <Filter>Scripts\OpenCL</Filter>
+    </None>
+    <None Include="cl\duplicate.cl">
+      <Filter>Scripts\OpenCL</Filter>
+    </None>
+    <None Include="cl\find_active_voxels.cl">
+      <Filter>Scripts\OpenCL</Filter>
+    </None>
+    <None Include="cl\find_default_edges.cl">
+      <Filter>Scripts\OpenCL</Filter>
+    </None>
+    <None Include="cl\generate_default_field.cl">
+      <Filter>Scripts\OpenCL</Filter>
+    </None>
+    <None Include="cl\noise.cl">
+      <Filter>Scripts\OpenCL</Filter>
+    </None>
+    <None Include="cl\scan.cl">
+      <Filter>Scripts\OpenCL</Filter>
+    </None>
+    <None Include="cl\shared_constants.cl">
+      <Filter>Scripts\OpenCL</Filter>
+    </None>
+    <None Include="cl\simplex.cl">
+      <Filter>Scripts\OpenCL</Filter>
+    </None>
+    <None Include="cl\fill_buffer.cl">
+      <Filter>Scripts\OpenCL</Filter>
+    </None>
+    <None Include="cl\qef.cl">
+      <Filter>Scripts\OpenCL</Filter>
+    </None>
+    <None Include="cl\density_field.cl">
+      <Filter>Scripts\OpenCL</Filter>
+    </None>
+    <None Include="cl\octree.cl">
+      <Filter>Scripts\OpenCL</Filter>
+    </None>
+    <None Include="cl\cuckoo.cl">
+      <Filter>Scripts\OpenCL</Filter>
+    </None>
+  </ItemGroup>
+</Project>
