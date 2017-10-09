@@ -9,7 +9,7 @@ A VS2013 solution and project file are supplied. These include hardcoded paths t
   * Bullet Physics 2.83.6
   * Dear ImGui
   * Catch unit testing library (only required for the unit test configurations)
-  * CUDA 
+  * The OpenCL SDK for your dev machine (e.g. NVidia CUDA/OpenCL SDK)
   * GLEW 1.13.0
   * GLM 0.9.3
   * SDL 2.0.3
